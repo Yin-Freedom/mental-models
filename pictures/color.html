@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美股下跌红色渐变展示</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .gradient-box {
+            width: 300px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        /* 第一组：深红系 */
+        .gradient1 { background: linear-gradient(to right, #D32F2F, #B71C1C); }
+        .gradient2 { background: linear-gradient(to right, #C62828, #8B0000); }
+        .gradient3 { background: linear-gradient(to right, #FF3D00, #B71C1C); }
+
+        /* 第二组：亮红系 */
+        .gradient4 { background: linear-gradient(to right, #FF1744, #D50000); }
+        .gradient5 { background: linear-gradient(to right, #FF5252, #C62828); }
+        .gradient6 { background: linear-gradient(to right, #FF8A80, #D32F2F); }
+
+        /* 第三组：冷暖红 */
+        .gradient7 { background: linear-gradient(to right, #FF0000, #800000); }
+        .gradient8 { background: linear-gradient(to right, #E53935, #880E4F); }
+        .gradient9 { background: linear-gradient(to right, #F44336, #4A0000); }
+    </style>
+</head>
+<body>
+    <div class="gradient-box gradient1"></div>
+    <div class="gradient-box gradient2"></div>
+    <div class="gradient-box gradient3"></div>
+    <div class="gradient-box gradient4"></div>
+    <div class="gradient-box gradient5"></div>
+    <div class="gradient-box gradient6"></div>
+    <div class="gradient-box gradient7"></div>
+    <div class="gradient-box gradient8"></div>
+    <div class="gradient-box gradient9"></div>
+</body>
+</html>

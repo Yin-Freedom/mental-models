@@ -1,0 +1,69 @@
+# ---- 通用配置 ----
+# 忽略操作系统自动生成文件
+.DS_Store
+Thumbs.db
+
+# 忽略日志文件
+*.log
+
+# 忽略编译输出
+*.out
+*.class
+*.o
+*.so
+*.exe
+
+# 忽略临时文件
+*.swp
+*.swo
+*~
+*.tmp
+
+# ---- Git 配置 ----
+# 忽略Git自身文件
+.git/
+.gitignore
+
+# ---- IDE/编辑器 ----
+# VSCode
+.vscode/
+# JetBrains IDE (IntelliJ IDEA, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+env/
+venv/
+.venv/
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# ---- Java ----
+target/
+*.jar
+*.war
+*.ear
+
+# ---- Go ----
+bin/
+vendor/
+
+# ---- C/C++ ----
+*.obj
+*.dll
+*.lib
+*.pdb
+
+# ---- 环境变量/配置文件（视实际项目而定） ----
+.env
+.env.*
+
+# ---- 其他可根据实际项目补充 ----
